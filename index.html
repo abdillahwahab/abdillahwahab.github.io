@@ -13,59 +13,356 @@
 	<link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/themes/indigo-white.css">
-	<!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/grey-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/themes/tosk.css">
 </head>
 <body>
-	<main>
-		<div class="intro">Hello, I'm Dinesh!</div>
-		<div class="tagline">All-Star Dev | Code Fanatic | Linux Hacker | Bleh</div>
-		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-		<div class="icons-social">
-			<a target="_blank" href="https://github.com/flexdinesh">
-        <i class="fab fa-github" aria-hidden="true" title="Github"></i>
-        <span class="sr-only">Github</span>
-      </a>
-      <a target="_blank" href="https://twitter.com/flexdinesh">
-        <i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i>
-        <span class="sr-only">Twitter</span>
-      </a>
-      <a target="_blank" href="https://dev.to/flexdinesh">
-        <i class="fab fa-dev" aria-hidden="true" title="DEV Community"></i>
-        <span class="sr-only">DEV Community</span>
-      </a>
-      <a target="_blank" href="https://stackoverflow.com/story/flexdinesh">
-        <i class="fab fa-stack-overflow" aria-hidden="true" title="StackOverflow"></i>
-        <span class="sr-only">StackOverflow</span>
-      </a>
-      <a target="_blank" href="https://www.linkedin.com/in/dineshpandiyan">
-        <i class="fab fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
-        <span class="sr-only">LinkedIn</span>
-      </a>
-      <a target="_blank" href="https://medium.com/@flexdinesh">
-        <i class="fab fa-medium" aria-hidden="true" title="Medium"></i>
-        <span class="sr-only">Medium</span>
-      </a>
-      <a target="_blank" href="https://www.freecodecamp.org">
-        <i class="fab fa-free-code-camp" aria-hidden="true" title="FreeCodeCamp"></i>
-        <span class="sr-only">FreeCodeCamp</span>
-      </a>
-      <a target="_blank" href="https://www.behance.net">
-        <i class="fab fa-behance" aria-hidden="true" title="Behance"></i>
-        <span class="sr-only">Behance</span>
-      </a>
-      <a target="_blank" href="https://codepen.io">
-        <i class="fab fa-codepen" aria-hidden="true" title="CodePen"></i>
-        <span class="sr-only">CodePen</span>
-      </a>
+	<!-- <main> -->
+    <!-- <div class="container-home">
+      <div class="intro"><h1 class="h1-heading">Module berkualitas untuk platform Odoo</h1></div>
+      <div class="tagline">Jutaan orang butuh mengcostumisasi fiture yang ada di odoo yang mereka gunakan. kami menyediakan module module yang berkualitas.</div>
+    </div> -->
+	<!-- </main> -->
+  <div class="main-page bubble-element Page bubble-r-container flex column" style="width: 100%; margin-right: auto; margin-left: auto; position: relative; z-index: 1; min-height: max(600px, 100%); height: max-content; flex-shrink: 0; justify-content: flex-start; background: none rgb(255, 255, 255);">
+    <div class="bubble-element Group bubble-r-container flex column" style="z-index: 27; align-self: center; min-width: 0px; order: 10; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; justify-content: flex-start; overflow: visible; border-radius: 0px; padding: 0px 20px;">
+      <div class="bubble-element Group bubble-r-container flex row" id="header-container" style="z-index: 2; align-self: center; min-width: 200px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 20px 0px 60px; justify-content: space-between; overflow: visible; border-radius: 0px;">
+        <div class="bubble-element Text" style="visibility: hidden; z-index: 6; align-self: center; min-width: 0px; order: 3; min-height: 0px; width: 0px; flex-grow: 1; height: max-content; margin: 0px; display: none;"></div>
+        <div class="bubble-element Text" style="visibility: hidden; z-index: 7; align-self: center; min-width: 0px; order: 4; min-height: 0px; width: max-content; flex-grow: 0; height: max-content; margin: 0px; display: none;"></div>
+      </div>
+      <div class="bubble-element Group bubble-r-container flex row" style="visibility: hidden; z-index: 19; order: 2; height: max-content; flex-shrink: 0; display: none; justify-content: flex-start; gap: 0px 20px; align-self: center; min-width: 200px; max-width: 1200px; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 80px 0px;">
+        <div class="bubble-element Group bubble-r-container flex column" style="z-index: 3; align-self: flex-start; min-width: 300px; max-width: 1200px; order: 1; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px; justify-content: flex-start;">
+          <div class="bubble-element HTML" style="visibility: hidden; z-index: 4; align-self: flex-start; min-width: 200px; max-width: 600px; order: 1; min-height: 100px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px 0px 20px; display: none;">
+            <div style="padding:56.25% 0 0 0;position:relative;">
+              <iframe src="https://player.vimeo.com/video/?h=8cf4ef9939&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+          </div>
+          <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 9; order: 2; height: max-content; flex-shrink: 0; display: none; justify-content: flex-start; align-self: center; min-width: 100%; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px 0px 20px;">
+            <div class="bubble-element Text" style="visibility: hidden; z-index: 5; align-self: center; min-width: 0px; order: 2; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+            <div class="bubble-element Image" style="visibility: hidden; z-index: 25; align-self: flex-start; min-width: 0px; order: 3; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+            <div class="bubble-element Text" style="visibility: hidden; z-index: 7; order: 4; height: max-content; flex-shrink: 0; display: none; align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;"></div>
+          </div>
+          <h1 class="bubble-element Text" style="z-index: 10; align-self: flex-start; min-width: 200px; order: 3; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px 0px 20px;"></h1>
+          <div class="bubble-element Text" style="z-index: 11; align-self: flex-start; min-width: 200px; order: 4; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px 0px 30px;"></div>
+          <div class="bubble-element Group bubble-r-container flex row" style="z-index: 14; align-self: flex-start; min-width: 0px; order: 5; min-height: 60px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; justify-content: flex-start; gap: 20px;">
+            <a class="bubble-element Link" style="visibility: hidden; z-index: 17; align-self: flex-start; min-width: 200px; order: 1; min-height: 60px; max-height: 60px; width: max-content; flex-grow: 0; height: 60px; margin: 0px; display: none;"></a>
+            <div class="bubble-element Text" style="visibility: hidden; z-index: 13; align-self: flex-start; min-width: 200px; order: 3; min-height: 60px; max-height: 60px; width: max-content; flex-grow: 0; height: 60px; margin: 0px; display: none;"></div>
+            <div class="bubble-element Text" style="visibility: hidden; z-index: 19; align-self: flex-start; min-width: 200px; order: 4; min-height: 60px; max-height: 60px; width: max-content; flex-grow: 0; height: 60px; margin: 0px; display: none;"></div>
+          </div>
+          <div class="bubble-element Group bubble-r-container flex row" style="visibility: hidden; z-index: 8; order: 6; height: max-content; flex-shrink: 0; display: none; justify-content: center; gap: 20px; align-self: center; min-width: 320px; max-width: 500px; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 30px 0px 20px;">
+            <div class="bubble-element Group bubble-r-container flex column" style="z-index: 2; order: 1; height: max-content; justify-content: flex-start; align-self: flex-start; min-width: 100%; max-width: 100%; min-height: 20px; width: 100%; flex-grow: 1; margin: 0px;">
+              <div class="bubble-element Image" style="z-index: 4; align-self: center; min-width: 70px; max-width: 70px; order: 3; min-height: 70px; max-height: 70px; height: 70px; flex-grow: 1; width: 70px; margin: 0px;"></div>
+            </div>
+            <div class="bubble-element Group bubble-r-container flex column" style="z-index: 3; align-self: flex-start; min-width: 0px; order: 2; min-height: 0px; width: 0px; flex-grow: 1; height: max-content; margin: 0px; justify-content: flex-start; row-gap: 10px;">
+              <div class="bubble-element Text" style="z-index: 11; order: 3; height: max-content; flex-shrink: 0; align-self: center; min-width: 0px; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px;"></div>
+              <div class="bubble-element Text" style="z-index: 12; order: 4; height: max-content; flex-shrink: 0; align-self: center; min-width: 0px; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 8; align-self: flex-start; min-width: 300px; order: 2; min-height: 500px; width: 300px; flex-grow: 1; height: max-content; margin: 0px; display: none; justify-content: flex-start;">
+          <div class="bubble-element Text" style="visibility: hidden; z-index: 5; align-self: center; min-width: 0px; order: 1; min-height: 0px; height: 0px; flex-grow: 1; width: calc(100% - 0px); margin: 20px 0px 0px; display: none;"></div>
+          <div class="bubble-element HTML" style="visibility: hidden; z-index: 4; align-self: flex-start; min-width: 200px; max-width: 600px; order: 3; min-height: 100px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 20px 0px 0px; display: none;">
+            <div style="padding:56.25% 0 0 0;position:relative;">
+              <iframe src="https://player.vimeo.com/video/?h=8cf4ef9939&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+          </div>
+          <div class="bubble-element Image" style="visibility: hidden; z-index: 24; align-self: flex-start; min-width: 0px; order: 4; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+          <div class="bubble-element Text" style="visibility: hidden; z-index: 7; order: 6; height: max-content; flex-shrink: 0; display: none; align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;"></div>
+        </div>
+      </div>
+      <div class="bubble-element Group bubble-r-container flex row" style="z-index: 20; order: 3; height: max-content; flex-shrink: 0; justify-content: center; gap: 0px 20px; overflow: visible; border-radius: 0px; align-self: center; min-width: 200px; max-width: 960px; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 40px 0px 80px;" id="hero-center">
+        <div class="bubble-element Group bubble-r-container flex column" style="z-index: 3; align-self: flex-start; min-width: 300px; order: 1; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px; justify-content: flex-start; overflow: visible; border-radius: 0px;" id="elementtoimage">
+          <div class="bubble-element Group bubble-r-container flex column" style="z-index: 9; order: 1; height: max-content; flex-shrink: 0; justify-content: flex-end; overflow: visible; border-radius: 20px; align-self: center; min-width: 0px; max-width: 600px; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px 0px 20px;">
+            <div class="bubble-element Text" style="visibility: hidden; z-index: 5; align-self: center; min-width: 0px; order: 1; min-height: 250px; height: 250px; flex-grow: 1; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+            <div class="bubble-element Image" style="z-index: 26; align-self: flex-start; min-width: 0px; order: 2; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; border-radius: 20px;">
+              <img alt="" style="position: relative; top: 0px; left: 0px; display: block; width: 100%; height: auto; margin: 0px; object-fit: contain; border-radius: 20px;" src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzMzI1MDB8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGVuZ2luZWVyfGVufDB8fHx8MTY3MTk1NzY1MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080">
+              <div style="display: none;"></div>
+            </div>
+            <div class="bubble-element Text" style="z-index: 7; order: 3; height: max-content; flex-shrink: 0; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 10px; font-weight: 400; color: rgb(255, 255, 255); text-align: right; line-height: 1.3; padding: 0px 4px; border-radius: 0px; background-color: rgba(0, 0, 0, 0.3); align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 0px;" id="bring-to-front">Photo by radowanrehan on Unsplash</div>
+            <div class="bubble-element HTML" style="visibility: hidden; z-index: 4; align-self: flex-start; min-width: 200px; max-width: 600px; order: 4; min-height: 100px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;">
+              <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe src="https://player.vimeo.com/video/?h=8cf4ef9939&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+              </div>
+              <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+          </div>
+          <h1 class="bubble-element Text" style="z-index: 10; align-self: center; min-width: 200px; order: 2; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px 0px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 55px; font-weight: bold; color: rgb(155, 89, 182); text-align: center; line-height: 1.3; border-radius: 0px;" id="h1-heading">Module berkualitas untuk platform Odoo</h1>
+          <div class="bubble-element Text" style="z-index: 11; align-self: flex-start; min-width: 200px; order: 3; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px 0px 30px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(51, 51, 51); text-align: center; line-height: 1.5; border-radius: 0px;" id="h1-description">Jutaan orang butuh mengcostumisasi fiture yang ada di odoo yang mereka gunakan. kami menyediakan module module yang berkualitas.</div>
+          <div class="bubble-element Group bubble-r-container flex row" style="z-index: 14; align-self: center; min-width: 0px; order: 4; min-height: 60px; height: max-content; flex-grow: 0; flex-shrink: 0; width: auto; margin: 0px; justify-content: center; gap: 20px; overflow: visible; border-radius: 0px;">
+            <a class="bubble-element Link" style="visibility: hidden; z-index: 20; align-self: flex-start; min-width: 200px; order: 1; min-height: 60px; max-height: 60px; width: max-content; flex-grow: 0; height: 60px; margin: 0px; display: none;"></a>
+            <div class="bubble-element Text clickable-element bubble-r-vertical-center" style="z-index: 13; align-self: flex-start; min-width: 200px; order: 2; min-height: 60px; max-height: 60px; width: max-content; flex-grow: 0; height: 60px; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 20px; font-weight: 700; color: rgb(255, 255, 255); text-align: center; line-height: 1; padding: 20px; border-radius: 10px; background: none rgb(155, 89, 182); cursor: pointer; transition: background 200ms ease 0s;" id="text-button">
+              <div>Hubungi Kami</div>
+            </div>
+            <div class="bubble-element Text" style="visibility: hidden; z-index: 20; align-self: flex-start; min-width: 200px; order: 3; min-height: 60px; max-height: 60px; width: max-content; flex-grow: 0; height: 60px; margin: 0px; display: none;"></div>
+          </div>
+          <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 8; align-self: center; min-width: 0px; max-width: 500px; order: 5; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 30px 20px 20px; display: none; justify-content: flex-start; row-gap: 10px;">
+            <div class="bubble-element Image" style="z-index: 4; align-self: center; min-width: 70px; max-width: 70px; order: 1; min-height: 70px; max-height: 70px; height: 70px; flex-grow: 1; width: 70px; margin: 0px 0px 10px;"></div>
+            <div class="bubble-element Text" style="z-index: 11; align-self: center; min-width: 0px; order: 2; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px;"></div>
+            <div class="bubble-element Text" style="z-index: 12; align-self: flex-start; min-width: 0px; order: 3; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px;"></div>
+          </div>
+        </div>
+      </div>
     </div>
-	</main>
+    <div class="bubble-element Group bubble-r-container flex column" style="z-index: 8; align-self: center; min-width: 0px; order: 11; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; justify-content: flex-start; overflow: visible; border-radius: 0px; padding: 40px 0px;">
+      <div class="bubble-element Group bubble-r-container flex column" style="z-index: 28; order: 1; height: max-content; flex-shrink: 0; justify-content: flex-start; overflow: visible; border-radius: 20px; background: -webkit-linear-gradient(top, rgba(155, 89, 182, 0.15) 0%, rgba(155, 89, 182, 0.13) 100%); align-self: center; min-width: 0px; max-width: 1240px; min-height: 0px; flex-grow: 0; width: calc(100% - 40px); margin: 0px 20px; padding: 0px 40px;">
+        <div class="bubble-element Group bubble-r-container flex row" style="z-index: 7; align-self: center; min-width: 200px; max-width: 960px; order: 2; min-height: 250px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 80px 0px; justify-content: center; overflow: visible; border-radius: 0px;">
+          <div class="bubble-element Group bubble-r-container flex column" style="z-index: 2; align-self: flex-start; min-width: 300px; max-width: 600px; order: 1; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+            <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 4; align-self: flex-start; min-width: 100px; max-width: 480px; order: 2; min-height: 250px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 20px; display: none; justify-content: flex-start;">
+              <div class="bubble-element Text" style="visibility: hidden; z-index: 7; align-self: flex-start; min-width: 0px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+              <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 10; order: 2; height: max-content; flex-shrink: 0; display: none; justify-content: flex-start; align-self: flex-start; min-width: 0%; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px;">
+                <div class="bubble-element Image" style="visibility: hidden; z-index: 27; align-self: flex-start; min-width: 0px; order: 1; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+                <div class="bubble-element Text" style="visibility: hidden; z-index: 7; order: 2; height: max-content; flex-shrink: 0; display: none; align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;"></div>
+              </div>
+            </div>
+            <h2 class="bubble-element Text" style="z-index: 11; align-self: flex-start; min-width: 100px; order: 6; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 44px; font-weight: 700; color: rgb(155, 89, 182); line-height: 1.3; border-radius: 0px;" id="h2-title">Less than 300 miliseconds</h2>
+            <div class="bubble-element Text" style="z-index: 12; align-self: flex-start; min-width: 100px; order: 8; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;">kami melakukan profiling setiap fungsinya. dan kami membatasi hanya kurang dari 0.3 detik</div>
+          </div>
+          <div class="bubble-element Group bubble-r-container flex column" style="z-index: 3; align-self: flex-start; min-width: 300px; max-width: 600px; order: 2; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px 20px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+            <div class="bubble-element Text" style="visibility: hidden; z-index: 7; align-self: flex-start; min-width: 0px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+            <div class="bubble-element Group bubble-r-container flex column" style="z-index: 9; order: 2; height: max-content; flex-shrink: 0; justify-content: flex-end; overflow: visible; border-radius: 20px; align-self: flex-start; min-width: 0%; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px;">
+              <div class="bubble-element Image" style="z-index: 27; align-self: flex-start; min-width: 0px; order: 1; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; border-radius: 20px;">
+                <img alt="" style="position: relative; top: 0px; left: 0px; display: block; width: 100%; height: auto; margin: 0px; object-fit: contain; border-radius: 20px;" src="https://images.unsplash.com/photo-1511345624864-d6cf46344e8c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzMzI1MDB8MHwxfHNlYXJjaHwxfHxmYXN0fGVufDB8fHx8MTY3MTQ1MjcyNQ&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080">
+                <div style="display: none;"></div>
+              </div>
+              <div class="bubble-element Text clickable-element" style="z-index: 7; order: 2; height: max-content; flex-shrink: 0; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 10px; font-weight: 400; color: rgb(255, 255, 255); text-align: right; line-height: 1.3; padding: 0px 4px; border-radius: 0px; background-color: rgba(0, 0, 0, 0.3); cursor: pointer; align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;" id="bring-to-front">Photo by saffu on Unsplash</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bubble-element Group bubble-r-container flex row" style="z-index: 8; align-self: center; min-width: 200px; max-width: 960px; order: 2; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 80px 0px; justify-content: center; overflow: visible; border-radius: 0px;">
+        <div class="bubble-element Group bubble-r-container flex column" style="z-index: 3; align-self: flex-start; min-width: 300px; max-width: 600px; order: 1; min-height: 100px; width: 300px; flex-grow: 1; height: max-content; margin: 0px 20px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+          <div class="bubble-element Group bubble-r-container flex column" style="z-index: 10; order: 1; height: max-content; flex-shrink: 0; justify-content: flex-end; overflow: visible; border-radius: 20px; align-self: flex-start; min-width: 0%; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px;">
+            <div class="bubble-element Image" style="z-index: 28; align-self: flex-start; min-width: 0px; order: 1; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; border-radius: 20px;">
+              <img alt="" style="position: relative; top: 0px; left: 0px; display: block; width: 100%; height: auto; margin: 0px; object-fit: contain; border-radius: 20px;" src="https://images.unsplash.com/photo-1646932481088-81beb0b77a8c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzMzI1MDB8MHwxfHNlYXJjaHw3fHxtdWx0aSUyMHZlcnNpfGVufDB8fHx8MTY3MTQ1Mjk3Ng&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080">
+              <div style="display: none;"></div>
+            </div>
+            <div class="bubble-element Text clickable-element" style="z-index: 7; order: 2; height: max-content; flex-shrink: 0; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 10px; font-weight: 400; color: rgb(255, 255, 255); text-align: right; line-height: 1.3; padding: 0px 4px; border-radius: 0px; background-color: rgba(0, 0, 0, 0.3); cursor: pointer; align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;" id="bring-to-front">Photo by multiawesomestudio on Unsplash</div>
+          </div>
+          <div class="bubble-element Text bubble-r-vertical-center" style="z-index: 7; align-self: flex-start; min-width: 200px; order: 2; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 150px; font-weight: 600; color: rgb(59, 59, 59); text-align: center; line-height: 1; border-radius: 0px;">
+            <div></div>
+          </div>
+        </div>
+        <div class="bubble-element Group bubble-r-container flex column" style="z-index: 2; align-self: flex-start; min-width: 300px; max-width: 600px; order: 2; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+          <h3 class="bubble-element Text" style="z-index: 14; align-self: flex-start; min-width: 200px; order: 6; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 44px; font-weight: 700; color: rgb(155, 89, 182); line-height: 1.3; border-radius: 0px;" id="h2-title">Multi Version</h3>
+          <div class="bubble-element Text" style="z-index: 13; align-self: flex-start; min-width: 200px; order: 8; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;">Kami membangung module dengan versi tertentu, dan tentu akan selalu terupdate. dan setiap versi akan tetap tersedia.</div>
+        </div>
+      </div>
+      <div class="bubble-element Group bubble-r-container flex column" style="z-index: 29; order: 3; height: max-content; flex-shrink: 0; justify-content: flex-start; overflow: visible; border-radius: 20px; background: -webkit-linear-gradient(top, rgba(155, 89, 182, 0.15) 0%, rgba(155, 89, 182, 0.13) 100%); align-self: center; min-width: 0px; max-width: 1240px; min-height: 0px; flex-grow: 0; width: calc(100% - 40px); margin: 0px 20px; padding: 0px 40px;">
+        <div class="bubble-element Group bubble-r-container flex row" style="z-index: 9; align-self: center; min-width: 200px; max-width: 960px; order: 1; min-height: 250px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 80px 0px; justify-content: center; overflow: visible; border-radius: 0px;">
+          <div class="bubble-element Group bubble-r-container flex column" style="z-index: 2; align-self: flex-start; min-width: 300px; max-width: 600px; order: 1; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+            <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 4; align-self: flex-start; min-width: 200px; max-width: 480px; order: 2; min-height: 250px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 20px; display: none; justify-content: flex-start;">
+              <div class="bubble-element Text" style="visibility: hidden; z-index: 7; align-self: flex-start; min-width: 0px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+              <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 11; order: 2; height: max-content; flex-shrink: 0; display: none; justify-content: flex-start; align-self: flex-start; min-width: 0%; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px;">
+                <div class="bubble-element Image" style="visibility: hidden; z-index: 27; align-self: flex-start; min-width: 0px; order: 1; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+                <div class="bubble-element Text" style="visibility: hidden; z-index: 7; order: 2; height: max-content; flex-shrink: 0; display: none; align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;"></div>
+              </div>
+            </div>
+            <h2 class="bubble-element Text" style="z-index: 15; align-self: flex-start; min-width: 200px; order: 7; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 44px; font-weight: 700; color: rgb(155, 89, 182); line-height: 1.3; border-radius: 0px;" id="h2-title">Easy to Use</h2>
+            <div class="bubble-element Text" style="z-index: 13; align-self: flex-start; min-width: 200px; order: 8; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;">Dokumentasi How to use. dan tools konfigurasi tertulis jelas di module. memudahkan pengguna untuk mengatur fiture yang dibutuhkan.</div>
+          </div>
+          <div class="bubble-element Group bubble-r-container flex column" style="z-index: 3; align-self: flex-start; min-width: 300px; max-width: 600px; order: 2; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px 20px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+            <div class="bubble-element Text" style="visibility: hidden; z-index: 7; align-self: flex-start; min-width: 0px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+            <div class="bubble-element Group bubble-r-container flex column" style="z-index: 12; order: 2; height: max-content; flex-shrink: 0; justify-content: flex-end; overflow: visible; border-radius: 20px; align-self: flex-start; min-width: 0%; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px;">
+              <div class="bubble-element Image" style="z-index: 27; align-self: flex-start; min-width: 0px; order: 1; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; border-radius: 20px;">
+                <img alt="" style="position: relative; top: 0px; left: 0px; display: block; width: 100%; height: auto; margin: 0px; object-fit: contain; border-radius: 20px;" src="https://images.unsplash.com/photo-1534029731425-0d646dd67df3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzMzI1MDB8MHwxfHNlYXJjaHwxfHxlYXN5JTIwdG8lMjBzZXR1cHxlbnwwfHx8fDE2NzE0NTMxMjc&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080">
+                <div style="display: none;"></div>
+              </div>
+              <div class="bubble-element Text" style="z-index: 7; order: 2; height: max-content; flex-shrink: 0; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 10px; font-weight: 400; color: rgb(255, 255, 255); text-align: right; line-height: 1.3; padding: 0px 4px; border-radius: 0px; background-color: rgba(0, 0, 0, 0.3); align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;" id="bring-to-front">Photo by howardbouchevereau on Unsplash</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bubble-element Group bubble-r-container flex row" style="z-index: 33; align-self: center; min-width: 200px; max-width: 960px; order: 4; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 80px 0px; justify-content: center; overflow: visible; border-radius: 0px;">
+        <div class="bubble-element Group bubble-r-container flex column" style="z-index: 3; align-self: flex-start; min-width: 300px; max-width: 600px; order: 1; min-height: 100px; width: 300px; flex-grow: 1; height: max-content; margin: 0px 20px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+          <div class="bubble-element Group bubble-r-container flex column" style="z-index: 11; order: 2; height: max-content; flex-shrink: 0; justify-content: flex-end; overflow: visible; border-radius: 20px; align-self: flex-start; min-width: 0%; min-height: 0px; flex-grow: 0; width: calc(100% - 0px); margin: 0px;">
+            <div class="bubble-element Image" style="z-index: 28; align-self: flex-start; min-width: 0px; order: 1; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; border-radius: 20px;">
+              <img alt="" style="position: relative; top: 0px; left: 0px; display: block; width: 100%; height: auto; margin: 0px; object-fit: contain; border-radius: 20px;" src="https://images.unsplash.com/photo-1556155092-490a1ba16284?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzMzI1MDB8MHwxfHNlYXJjaHw4fHxncm93dGh8ZW58MHx8fHwxNjcxNjM4NjMx&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080">
+              <div style="display: none;"></div>
+            </div>
+            <div class="bubble-element Text" style="z-index: 7; order: 2; height: max-content; flex-shrink: 0; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 10px; font-weight: 400; color: rgb(255, 255, 255); text-align: right; line-height: 1.3; padding: 0px 4px; border-radius: 0px; background-color: rgba(0, 0, 0, 0.3); align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;" id="bring-to-front">Photo by austindistel on Unsplash</div>
+          </div>
+          <div class="bubble-element Text bubble-r-vertical-center" style="z-index: 7; align-self: flex-start; min-width: 200px; order: 3; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 150px; font-weight: 600; color: rgb(59, 59, 59); text-align: center; line-height: 1; border-radius: 0px;">
+            <div></div>
+          </div>
+        </div>
+        <div class="bubble-element Group bubble-r-container flex column" style="z-index: 2; align-self: flex-start; min-width: 300px; max-width: 600px; order: 2; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+          <h3 class="bubble-element Text" style="z-index: 14; align-self: flex-start; min-width: 200px; order: 6; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 44px; font-weight: 700; color: rgb(155, 89, 182); line-height: 1.3; border-radius: 0px;" id="h2-title">Solusi Pertumbuhan</h3>
+          <div class="bubble-element Text" style="z-index: 13; align-self: flex-start; min-width: 200px; order: 8; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;">Module kami dibangung dengan Nyawa untuk membantu meningkatkan pertumbuhan perusahaan pelanggan kami.</div>
+        </div>
+      </div>
+      <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 34; order: 5; height: max-content; flex-shrink: 0; display: none; justify-content: flex-start; align-self: center; min-width: 0px; max-width: 1240px; min-height: 0px; flex-grow: 0; width: calc(100% - 40px); margin: 0px 20px;">
+        <div class="bubble-element Group bubble-r-container flex row" style="z-index: 9; align-self: center; min-width: 200px; max-width: 960px; order: 1; min-height: 250px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 80px 0px; justify-content: center;">
+          <div class="bubble-element Group bubble-r-container flex column" style="z-index: 2; align-self: flex-start; min-width: 300px; max-width: 600px; order: 1; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px; justify-content: flex-start;">
+            <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 4; align-self: flex-start; min-width: 200px; max-width: 480px; order: 2; min-height: 250px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; display: none; justify-content: flex-start;">
+              <div class="bubble-element Text" style="visibility: hidden; z-index: 7; align-self: flex-start; min-width: 0px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+              <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 12; align-self: flex-start; min-width: 0%; order: 2; min-height: 300px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none; justify-content: flex-end;">
+                <div class="bubble-element Image" style="visibility: hidden; z-index: 27; align-self: flex-start; min-width: 0px; order: 1; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+                <div class="bubble-element Text" style="visibility: hidden; z-index: 7; order: 2; height: max-content; flex-shrink: 0; display: none; align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;"></div>
+              </div>
+            </div>
+            <h2 class="bubble-element Text" style="z-index: 15; align-self: flex-start; min-width: 200px; order: 7; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px;"></h2>
+            <div class="bubble-element Text" style="z-index: 13; align-self: flex-start; min-width: 200px; order: 8; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px;"></div>
+          </div>
+          <div class="bubble-element Group bubble-r-container flex column" style="z-index: 3; align-self: flex-start; min-width: 300px; max-width: 600px; order: 2; min-height: 0px; width: 300px; flex-grow: 1; height: max-content; margin: 0px 20px 20px; justify-content: flex-start;">
+            <div class="bubble-element Text" style="visibility: hidden; z-index: 7; align-self: flex-start; min-width: 0px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+            <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 13; align-self: flex-start; min-width: 0%; order: 2; min-height: 300px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none; justify-content: flex-end;">
+              <div class="bubble-element Image" style="visibility: hidden; z-index: 27; align-self: flex-start; min-width: 0px; order: 1; min-height: 50px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></div>
+              <div class="bubble-element Text" style="visibility: hidden; z-index: 7; order: 2; height: max-content; flex-shrink: 0; display: none; align-self: flex-end; min-width: 0px; min-height: 0px; flex-grow: 0; width: auto; margin: -13px 20px 0px 5px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 22; align-self: center; min-width: 200px; max-width: 600px; order: 17; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 80px 20px; display: none; justify-content: flex-start; row-gap: 10px;">
+      <div class="bubble-element Image" style="z-index: 5; align-self: center; min-width: 70px; max-width: 70px; order: 1; min-height: 70px; max-height: 70px; height: 70px; flex-grow: 1; width: 70px; margin: 0px 0px 10px;"></div>
+      <div class="bubble-element Text" style="z-index: 11; align-self: flex-start; min-width: 200px; order: 2; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px;"></div>
+      <div class="bubble-element Text" style="z-index: 4; align-self: center; min-width: 200px; order: 4; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px;"></div>
+    </div>
+    <div class="bubble-element Group bubble-r-container flex column" style="visibility: hidden; z-index: 32; align-self: center; min-width: 0px; max-width: 1200px; order: 18; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 40px 0px; display: none; justify-content: flex-start;">
+      <h2 class="bubble-element Text" style="visibility: hidden; z-index: 8; align-self: flex-start; min-width: 0px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none;"></h2>
+      <div class="bubble-element HTML" style="z-index: 4; align-self: flex-start; min-width: 1px; max-width: 1px; order: 3; min-height: 1px; max-height: 1px; height: 1px; flex-grow: 1; width: 1px; margin: 0px;">
+        <style>
+          #main-grid {
+            grid-auto-rows: 5px !important;
+          }
+        </style>
+      </div>
+      <div class="bubble-element RepeatingGroup" style="z-index: 3; align-self: center; min-width: 300px; order: 4; min-height: 300px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 40px 0px;"></div>
+    </div>
+    <div class="bubble-element Group bubble-r-container flex row" style="z-index: 10; align-self: center; min-width: 200px; max-width: 1200px; order: 19; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 80px 0px 0px; justify-content: center; overflow: visible; border-radius: 0px;">
+      <div class="bubble-element Group bubble-r-container flex column" style="z-index: 2; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+        <h2 class="bubble-element Text" style="z-index: 7; align-self: flex-start; min-width: 0px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 44px; font-weight: 700; color: rgb(51, 51, 51); text-align: center; line-height: 1.3; border-radius: 0px;" id="faq-title">Frequently asked questions</h2>
+      </div>
+    </div>
+    <div class="bubble-element Group bubble-r-container flex column" style="z-index: 14; align-self: center; min-width: 200px; max-width: 960px; order: 20; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 20px 0px 80px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+      <div class="bubble-element RepeatingGroup bubble-rg" style="z-index: 2; align-self: center; min-width: 200px; order: 1; min-height: 30px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 0px 20px 20px; gap: 0px; grid-auto-rows: minmax(max-content, 0px); grid-template-columns: repeat(1, minmax(0px, 1fr)); grid-auto-flow: row; overflow: auto; border-radius: 0px;">
+        <div class="bubble-element GroupItem bubble-r-container flex row group-item entry-1" style="justify-content: center; box-sizing: content-box; min-height: 0px; border-top-style: none; border-left-style: none;">
+          <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 40px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+            <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; gap: 20px; overflow: visible; border-radius: 0px;">
+              <div class="bubble-element Text" style="z-index: 2; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 600; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;">Apakah bisa melakukan Request?</div>
+              <div class="bubble-element Text" style="z-index: 3; align-self: flex-start; min-width: 200px; order: 2; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(77, 77, 77); line-height: 1.3; border-radius: 0px;">Tentu saja bisa</div>
+              <div class="bubble-element HTML" style="z-index: 4; align-self: flex-start; min-width: 1px; max-width: 1px; order: 3; min-height: 1px; max-height: 1px; width: 1px; flex-grow: 1; height: 1px; margin: 0px; padding: 4px; border-radius: 0px;">
+                <style>
+                  a:hover {
+                    text-decoration: none;
+                    color: #9b59b6CC !important;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bubble-element GroupItem bubble-r-container flex row group-item entry-2" style="justify-content: center; box-sizing: content-box; min-height: 0px; border-top: 0px none rgb(224, 224, 224); margin-top: 0px; border-left-style: none;">
+          <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 40px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+            <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; gap: 20px; overflow: visible; border-radius: 0px;">
+              <div class="bubble-element Text" style="z-index: 2; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 600; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;">Apakah menyediakan jasa pemasangan Odoo?</div>
+              <div class="bubble-element Text" style="z-index: 3; align-self: flex-start; min-width: 200px; order: 2; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(77, 77, 77); line-height: 1.3; border-radius: 0px;">Tidak, kami hanya menyediakan module dan jasa pembuatan module</div>
+              <div class="bubble-element HTML" style="z-index: 4; align-self: flex-start; min-width: 1px; max-width: 1px; order: 3; min-height: 1px; max-height: 1px; width: 1px; flex-grow: 1; height: 1px; margin: 0px; padding: 4px; border-radius: 0px;">
+                <style>
+                  a:hover {
+                    text-decoration: none;
+                    color: #9b59b6CC !important;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bubble-element GroupItem bubble-r-container flex row group-item entry-3" style="justify-content: center; box-sizing: content-box; min-height: 0px; border-top: 0px none rgb(224, 224, 224); margin-top: 0px; border-left-style: none;">
+          <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 40px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+            <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; gap: 20px; overflow: visible; border-radius: 0px;">
+              <div class="bubble-element Text" style="z-index: 2; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 600; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;">Apakah module yang tersedia bisa didapatkan secara gratis?</div>
+              <div class="bubble-element Text" style="z-index: 3; align-self: flex-start; min-width: 200px; order: 2; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(77, 77, 77); line-height: 1.3; border-radius: 0px;">Beberapa module kami sediakan gratis. namun beberapa yang lain kami memberikan harga untuk setiap modulenya.</div>
+              <div class="bubble-element HTML" style="z-index: 4; align-self: flex-start; min-width: 1px; max-width: 1px; order: 3; min-height: 1px; max-height: 1px; width: 1px; flex-grow: 1; height: 1px; margin: 0px; padding: 4px; border-radius: 0px;">
+                <style>
+                  a:hover {
+                    text-decoration: none;
+                    color: #9b59b6CC !important;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bubble-element GroupItem bubble-r-container flex row group-item entry-4" style="justify-content: center; box-sizing: content-box; min-height: 0px; border-top: 0px none rgb(224, 224, 224); margin-top: 0px; border-left-style: none;">
+          <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 40px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+            <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; gap: 20px; overflow: visible; border-radius: 0px;">
+              <div class="bubble-element Text" style="z-index: 2; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 600; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;">Apakah ada Batasan pekerjaan untuk tosk?</div>
+              <div class="bubble-element Text" style="z-index: 3; align-self: flex-start; min-width: 200px; order: 2; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(77, 77, 77); line-height: 1.3; border-radius: 0px;">Tujuan kami adalah pertumbuhan perusahaan pelanggan dan kecepatan. jika menurut kami requirement tidak mencapai tujuan kami. kami tidak ingin mengerjakannya</div>
+              <div class="bubble-element HTML" style="z-index: 4; align-self: flex-start; min-width: 1px; max-width: 1px; order: 3; min-height: 1px; max-height: 1px; width: 1px; flex-grow: 1; height: 1px; margin: 0px; padding: 4px; border-radius: 0px;">
+                <style>
+                  a:hover {
+                    text-decoration: none;
+                    color: #9b59b6CC !important;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bubble-element GroupItem bubble-r-container flex row group-item entry-5" style="justify-content: center; box-sizing: content-box; min-height: 0px; border-top: 0px none rgb(224, 224, 224); margin-top: 0px; border-left-style: none;">
+          <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 40px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+            <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; gap: 20px; overflow: visible; border-radius: 0px;">
+              <div class="bubble-element Text" style="z-index: 2; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 600; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;">Seperti apa custom yang bisa di terima tosk?</div>
+              <div class="bubble-element Text" style="z-index: 3; align-self: flex-start; min-width: 200px; order: 2; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(77, 77, 77); line-height: 1.3; border-radius: 0px;">Pengolahan data pada back-end dan integrasi dengan third-party. <br>Integrasi Hardware, Reporting PDF, dan Dashboard, untuk sementara kami tolak. </div>
+              <div class="bubble-element HTML" style="z-index: 4; align-self: flex-start; min-width: 1px; max-width: 1px; order: 3; min-height: 1px; max-height: 1px; width: 1px; flex-grow: 1; height: 1px; margin: 0px; padding: 4px; border-radius: 0px;">
+                <style>
+                  a:hover {
+                    text-decoration: none;
+                    color: #9b59b6CC !important;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bubble-element GroupItem bubble-r-container flex row group-item entry-6" style="justify-content: center; box-sizing: content-box; min-height: 0px; border-top: 0px none rgb(224, 224, 224); margin-top: 0px; border-left-style: none; display: none;">
+          <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 40px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start;">
+            <div class="bubble-element Group bubble-r-container flex row" style="z-index: 4; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px 0px 20px; justify-content: flex-start; gap: 20px;">
+              <div class="bubble-element Text" style="z-index: 2; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px;"></div>
+              <div class="bubble-element Text" style="z-index: 3; align-self: flex-start; min-width: 200px; order: 2; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 0px;"></div>
+              <div class="bubble-element HTML" style="z-index: 4; align-self: flex-start; min-width: 1px; max-width: 1px; order: 3; min-height: 1px; max-height: 1px; width: 1px; flex-grow: 1; height: 1px; margin: 0px;">
+                <style>
+                  a:hover {
+                    text-decoration: none;
+                    color: #9b59b6CC !important;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bubble-element Group bubble-r-container flex column" style="z-index: 30; order: 21; height: max-content; flex-shrink: 0; justify-content: flex-start; overflow: visible; border-radius: 20px; background: linear-gradient(115deg, rgba(155, 89, 182, 0.15) 0%, rgba(155, 89, 182, 0.07) 100%); align-self: center; min-width: 0px; max-width: 1240px; min-height: 0px; flex-grow: 0; width: calc(100% - 40px); margin: 0px 20px; padding: 0px 40px;">
+      <div class="bubble-element Group bubble-r-container flex column" style="z-index: 13; align-self: center; min-width: 200px; max-width: 800px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 80px 20px; justify-content: flex-start; overflow: visible; border-radius: 0px;">
+        <h2 class="bubble-element Text" style="z-index: 13; align-self: flex-start; min-width: 200px; order: 1; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px 0px 40px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 36px; font-weight: bold; color: rgb(51, 51, 51); text-align: center; line-height: 1.3; border-radius: 0px;" id="cta-title">Jangan ragu menghubungi kami</h2>
+        <a class="bubble-element Link" style="visibility: hidden; z-index: 21; align-self: center; min-width: 200px; order: 2; min-height: 60px; max-height: 60px; height: 60px; flex-grow: 1; width: auto; margin: 0px; display: none;"></a>
+        <div class="bubble-element Group bubble-r-container flex row" style="visibility: hidden; z-index: 14; align-self: center; min-width: 200px; order: 8; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; display: none; justify-content: center; gap: 20px;">
+          <input type="email" class="bubble-element Input" style="z-index: 14; align-self: flex-start; min-width: 250px; order: 4; min-height: 60px; width: 250px; flex-grow: 1; height: 60px; margin: 0px;">
+          <div class="bubble-element Text" style="z-index: 14; align-self: flex-start; min-width: 200px; order: 10; min-height: 45px; width: 200px; flex-grow: 1; height: max-content; margin: 0px;"></div>
+        </div>
+        <div class="bubble-element Group bubble-r-container flex row" style="z-index: 15; align-self: center; min-width: 200px; order: 9; min-height: 0px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 0px); margin: 0px; justify-content: center; overflow: visible; border-radius: 0px;">
+          <div class="bubble-element Text clickable-element bubble-r-vertical-center" style="z-index: 14; align-self: flex-start; min-width: 200px; order: 10; min-height: 60px; width: max-content; flex-grow: 0; height: max-content; margin: 0px 20px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 20px; font-weight: 700; color: rgb(255, 255, 255); text-align: center; line-height: 1; padding: 20px; border-radius: 10px; background-color: rgb(155, 89, 182); cursor: pointer; transition: background 200ms ease 0s;">
+            <div>Register</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bubble-element Group bubble-r-container flex row" style="z-index: 15; align-self: center; min-width: 200px; max-width: 800px; order: 22; min-height: 250px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% - 40px); margin: 80px 20px; justify-content: center; overflow: visible; border-style: solid; border-width: 1px; border-color: rgb(194, 194, 194); border-radius: 10px; box-shadow: rgba(170, 170, 170, 0.05) 2px 2px 8px 4px;" id="founder-letter-container">
+      <div class="bubble-element Text" style="z-index: 3; align-self: flex-start; min-width: 200px; order: 2; min-height: 0px; width: 200px; flex-grow: 1; height: max-content; margin: 80px; white-space: pre-wrap; overflow: visible; word-break: break-word;  font-size: 24px; font-weight: 400; color: rgb(51, 51, 51); line-height: 1.3; border-radius: 0px;" id="founder-letter">Halo Semua disana. aku Abdillahwahab, Founder of tosk. <br>
+        <br>tosk adalah startup alternative untuk solusi pembuatan module Odoo. <br>
+        <br>Kami berbeda, kami bukan konsultant IT, kami bukan implementator Odoo. kami adalah Module Creator. <br>
+        <br>tosk berdiri dengan tujuan membantu pertumbuhan pengguna module kami. Module yang kami bangun memiliki nyawa untuk membantu pengguna agar mendapatkan pertumbuhan diperusahaannya. <br>
+        <br>kami menyadari ada banyak sekali fiture yang disediakan oleh odoo. maka kami berfokus pada kualitas kecepatan module yang kami bangun. dengan pembatasan 300 miliseconds, kami berupaya keras memberikan product terbaik untuk pengguna. <br>
+        <br>sukses selalu. <br>
+        <br>
+        <br>@abdillahwahab <br>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
